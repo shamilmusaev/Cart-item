@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>E-commerce product page</title>
+
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-center">
+      <section class="left">
+        <!-- nav header  -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" class="logo" alt="logo">
+
+          <!-- menu for mobile -->
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li class="collections">
+            <a href="index.html">Collections</a>
+          </li>
+          <li>
+            <a href="about.html">Men</a>
+          </li>
+          <li>
+            <a href="projects.html">Women</a>
+          </li>
+          <li>
+            <a href="contact.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="right">
+        <div class="nav-cart">
+          <button class="nav-cart__modal">
+            <img src="./images/icon-cart.svg" alt="cart">
+          </button>
+        </div>
+
+        <div class="nav-profile">
+          <img src="./images/image-avatar.png" class="avatar" alt="">
+        </div>
+
+
+
+      </section>
+
+    </div>
+
+    <!-- start of modal -->
+    <div class="cart-checkout_container">
+
+      <p class="cart-title">Cart</p>
+      <!-- <article class="cart-checkout_article">
+        
+        <img src="./images/image-product-1.jpg" alt="img" class="cart-checkout_img">
+        <div class="cart-product_info">
+          <p class="cart-product_title">Fall Limited Edition Sneakers</p>
+          <p class="cart-product_price">$125 x <span class="cart_product_amount">3</span>
+          <span class="cart_product_total-price">$375</span></p>
+        </div>
+
+        <img class="cart-product_delete" src="./images/icon-delete.svg" alt="delete">
+
+      </article> -->
+     
+    </div>
+    
+    <!-- end of modal -->
+
+  </nav>
+
+
+  <main>
+    <div class="product">
+      <section class="product_img">
+        <img class="current-img" src="" alt="current-img">
+        <div class="images">
+          <img src="./images/image-product-1.jpg" alt="img" class="images_item">
+          <img src="./images/image-product-2.jpg" alt="img" class="images_item">
+          <img src="./images/image-product-3.jpg" alt="img" class="images_item">
+          <img src="./images/image-product-4.jpg" alt="img" class="images_item">
+        </div>
+      </section>
+
+
+      <section class="product_description-container">
+        <p class="product-company">Sneaker Company</p>
+        <h1 class="product-title"">Fall Limited Edition Sneakers</h1>
+        <p class=" product-description"> These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+          <div class="price-container">
+            <p class="price_new"><span class="price_current">125.00</span> <span class="price_discount">50%</span></p>
+            <p class="price_old">$250.00</p>
+          </div>
+
+
+
+
+          <div class="add_to_cart-items">
+            <form class="quantity">
+              <button class="minus-btn">-</button>
+              <p class="quantity_amount">0</p>
+              <button class="plus-btn">+</button>
+              <button class="addtocart-btn" type="submit">Add to cart</button>
+            </form>
+          </div>
+
+      </section>
+    </div>
+  </main>
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
